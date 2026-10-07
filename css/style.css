@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter",sans-serif;
+}
+header {
+    padding: 0px 40px;
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    height: 25px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    height: 100%;
+    justify-content: space-between;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.active {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+button {
+    background-color: blue;
+    padding: 16px 8px;
+    border-radius: 6px;
+    font-size: 14px;
+    border: none;
+    text-align: center;
+}
+button a{
+    text-decoration: none;
+    color :white;
+}
+main{
+    display:flex;
+    height: 461px;
+    background-color:#08111D;
+    width:100%;
+    justify-content: space-between;
+}
+.hero{
+    margin-top: 25px;
+    margin-left: 60px;
+    width: 50%;
+    background-color:#08111D;
+    font-family: "Inter",sans-serif;
+}
+.hero h1{
+    font-size:76px;
+    color: white;
+    line-height: 120%;
+}
+.hero h1 span{
+    font-size:88px;
+    color:#034BFF;
+    line-height: 120%;
+}
+.hero h1 img{
+    width: 30px;
+    height: 35px;
+    margin-left: 50px;
+}
+.hero h2{
+    font-size: 26px;
+    color: white;
+    line-height: 120%;
+    margin:0;
+    margin-bottom: 12px;
+}
+.hero p{
+    font-size: 14px;
+    color: white;
+    line-height: 130%;
+}
+.hero .explorer-btn{
+    font-size: 12px;
+    margin: 16px 0px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.hero .explorer-btn a{
+    font-size: 12px;
+    color: white;
+}
+.hero .events-btn{
+    margin-left: 20px;
+    font-size: 12px;
+    border-radius: 5px;
+    font-size: 12px;
+    background: none;
+    border: 2px solid #8EABFF;
+}
+main img{
+    margin-right: 0;
+}
+section {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+section .row{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    align-items: center;
+}
+.row img{
+    height: 30px;
+    width: 30px;
+}
+section .column{
+    margin-left: 20px;
+}
+.column h3{
+    font-weight: 400;
+    font-size: 11px;
+}
+.border{
+    border-right: 2px solid #47526A;
+    height: 24px;
+    align-self: center;
+}
