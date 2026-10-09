@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-:root {
-    --blue : #034BFF;
-}
 
 *{
     margin: 0;
@@ -34,12 +31,12 @@ nav a {
 }
 
 .active {
-    color: var(--blue);
-    border-bottom: 2px solid var(--blue);
+    color: #034BFF;
+    border-bottom: 2px solid  #034BFF;
 }
 
 button {
-    background-color: var(--blue);
+    background-color:  #034BFF;
     padding: 14px 10px;
     border-radius: 6px;
     font-size: 14px;
@@ -158,6 +155,7 @@ section .column{
     align-self: center;
 }
 .env{
+    background-color: #F4F7FC;
     height: 400px;
     display: flex;
     justify-content: space-between;
@@ -181,10 +179,6 @@ section .column{
 }
 .campus{
     margin-top: 33px;
-}
-.journey{
-    height: 300px;
-    background-color: #8EABFF;
 }
 .right {
     width: 50%;
@@ -235,4 +229,148 @@ section .column{
 #p3 {
     left: 1220px;
     top: 225px;
+}
+.journey{
+    height: 290px;
+    background-color: #08111D;
+    color:white;
+    padding-top: 20px;
+}
+.days{
+    display: flex;
+    justify-content:center;
+    gap : 8px;
+    margin:-10px 90px;
+} 
+.round{
+    display: flex;
+    width:60px;
+    height:60px;
+    background-color: #D7C3B6;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.card ,.card-i,.card-ii,.card-iii,.card-iiii,.card-iiiii{
+    margin-top: 33px;
+}
+.num{
+    margin-left: 18px;
+    padding: 5px 0px;
+}
+.card >h2,.card-i>h2,.card-ii>h2,.card-iii>h2,.card-iiii>h2,.card-iiiii>h2{
+    font-size: 15px;
+    padding: 10px 0px 0px 0px;
+}
+.card >p,.card-i>p,.card-ii>p,.card-iii>p,.card-iiii>p,.card-iiiii>p{
+    font-size: 12px;
+}
+.round > i {
+    color:white;
+    font-size: 20px;
+}
+.card > .round , .card-i > .round, .card-iiii > .round{
+    background-color: #034BFF;
+}
+.card-ii  > .round{
+    background-color: #04B886;
+}
+.card-iii > .round{
+    background-color: #6744FF;
+}
+.card-iiiii > .round{
+    background-color: #C7F64A;
+}
+
+.journey > h2{
+    font-size: 45px;
+    margin-left: 90px;
+}
+.journey > p{
+    font-size: 15px;
+    margin-left: 95px;
+}
+.days > p{
+    margin-top: 80px;
+    margin-right: 40px;
+}
+.events{
+    height: 300px;
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+.evnt-txt{
+    background-color: #034BFF;
+    color: white;
+    border-radius: 15px;
+    margin:30px;
+    padding :15px 70px;
+}
+.evnt-txt > h6{
+    font-size: 10px;
+    margin-top:8px;
+}
+.evnt-txt > h2{
+    font-size: 30px;
+}
+.evnt-txt > p{
+    font-size: 13px;
+    margin-top:6px;
+}
+.evnt-txt > button{
+    background-color: white;
+    padding: 8px;
+    margin-top: 25px;
+    color: #034BFF;
+}
+
+.three-card{
+    display: flex;
+}
+.event-crd{
+    border: 2px solid #DDE4F0; 
+    border-radius: 15px;
+    margin:25px;
+}
+.crd img{
+    width: 300px;
+    height: 130px;
+}
+.crd > h3 {
+    font-size: 17px;
+    margin-left: 10px;
+}
+.crd > p{
+    font-size: 14px;
+    margin-left: 10px;
+    color:#47526A;
+}
+.crd > button{
+    padding: 4px 8px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: 2px solid #034BFF;
+    color:#034BFF;
+}
+.espace{
+    margin-top: 22px;
+}
+
+
+
+
+
+
+.student{
+    height: 250px;
+    background-color:chocolate;
+}
+footer{
+    height: 400px;
+    background-color:black;
+}
+.color {
+    color: white;
 }
